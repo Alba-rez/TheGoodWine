@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
          if(isPortrait){
              bottleIcon.isVisible
          }
-        
+
         return super.onPrepareOptionsMenu(menu)
     }
 }
