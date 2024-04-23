@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/white_bottle3" />
+
+
+    <Button
+        android:id="@+id/violeta"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="@color/colorPurple"
+        android:text="@string/violeta"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/colorPink"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="115dp"
+        android:layout_marginRight="4dp"
+        android:text="@string/rosa"
+        android:id="@+id/rosa"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/colorYellow"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="4dp"
+        android:text="@string/amarillo"
+        android:id="@+id/amarillo"
+        android:textColor="@color/black"/>
+
+
+</FrameLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ageFragment">
+
+    <fragment
+        android:id="@+id/ageFragment"
+        android:name="com.example.thegoodwine.AgeFragment"
+        android:label="AgeFragment" >
+        <action
+            android:id="@+id/action_ageFragment_to_siFragment"
+            app:destination="@id/siFragment" />
+        <action
+            android:id="@+id/action_ageFragment_to_noFragment"
+            app:destination="@id/noFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/siFragment"
+        android:name="com.example.thegoodwine.SiFragment"
+        android:label="SiFragment" >
+        <action
+            android:id="@+id/action_siFragment_to_chooseFragment"
+            app:destination="@id/chooseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noFragment"
+        android:name="com.example.thegoodwine.NoFragment"
+        android:label="NoFragment" />
+    <fragment
+        android:id="@+id/chooseFragment"
+        android:name="com.example.thegoodwine.ChooseFragment"
+        android:label="ChooseFragment" >
+        <action
+            android:id="@+id/action_chooseFragment_to_tintosFragment"
+            app:destination="@id/tintosFragment" />
+        <action
+            android:id="@+id/action_chooseFragment_to_rosadosFragment"
+            app:destination="@id/rosadosFragment" />
+        <action
+            android:id="@+id/action_chooseFragment_to_blancosFragment"
+            app:destination="@id/blancosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tintosFragment"
+        android:name="com.example.thegoodwine.TintosFragment"
+        android:label="TintosFragment" />
+    <fragment
+        android:id="@+id/rosadosFragment"
+        android:name="com.example.thegoodwine.RosadosFragment"
+        android:label="RosadosFragment" />
+    <fragment
+        android:id="@+id/blancosFragment"
+        android:name="com.example.thegoodwine.BlancosFragment"
+        android:label="BlancosFragment" />
+</navigation>

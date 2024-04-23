@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Good Wine</string>
+    <string name="age">I am of legal age</string>
+    <string name="no_age">I am a minor</string>
+    <string name="no_text">Come back when you are of legal age. Goodbye!</string>
+    <string name="start">Enter</string>
+    <string name="seleccion">Select a color</string>
+    <string name="vino">Wine</string>
+    <string name="tinto">Red</string>
+    <string name="rosado">Rosé</string>
+    <string name="blanco">White</string>
+    <string name="violeta">R</string>
+    <string name="rioja">D.O.Rioja</string>
+    <string name="rduero">D.O.RiberaDuero</string>
+    <string name="toro">D.O.Toro</string>
+    <string name="rosa">R</string>
+    <string name="penedes">D.O.Penedés</string>
+    <string name="emporda">D.O.Empordá</string>
+    <string name="catalunya">D.O.Catalunya</string>
+    <string name="amarillo">W</string>
+    <string name="rbaixas">D.O.Rías Baixas</string>
+    <string name="ribeiro">D.O.Ribeiro</string>
+    <string name="valdeorras">D.O.Valdeorras</string>
+
+
+</resources>

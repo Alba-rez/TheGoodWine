@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">The Good Wine</string>
+    <string name="age">Mayor 18</string>
+    <string name="no_age">Menor 18</string>
+    <string name="no_text">Vuelva cuando sea mayor de edad.</string>
+    <string name="start">Entrar</string>
+    <string name="seleccion">Elige Color</string>
+    <string name="violeta">T</string>
+    <string name="vino">Vino</string>
+    <string name="tinto">Tinto</string>
+    <string name="rosado">Rosado</string>
+    <string name="blanco">Blanco</string>
+    <string name="rioja">D.O.Rioja</string>
+    <string name="rduero">D.O.Ribera Duero</string>
+    <string name="toro">D.O.Toro</string>
+    <string name="rosa">R</string>
+    <string name="penedes">D.O.Penedés</string>
+    <string name="emporda">D.O.Empordá</string>
+    <string name="catalunya">D.O.Catalunya</string>
+    <string name="amarillo">B</string>
+    <string name="rbaixas">D.O.Rías Baixas</string>
+    <string name="ribeiro">D.O.Ribeiro</string>
+    <string name="valdeorras">D.O.Valdeorras</string>
+</resources>
