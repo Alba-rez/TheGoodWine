@@ -30,7 +30,7 @@ class AgeFragment : Fragment() {
         val ButtonMenor = view.findViewById<Button>(R.id.no_age)
 
         ButtonMayor.setOnClickListener {
-            view.findNavController().navigate(R.id.action_ageFragment_to_siFragment)
+            view.findNavController().navigate(R.id.action_ageFragment_to_copasFragment)
         }
 
         ButtonMenor.setOnClickListener {

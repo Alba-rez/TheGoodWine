@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CopasFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/copas"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="90dp"
+        android:text="Hasta 2 unidades de alcohol diarias"
+        android:textColor="@color/white"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="190dp"
+        android:text="No más de 4 unidades de alcohol en la misma ocasión"
+        android:textColor="@color/white"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="70dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:text="@string/next"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+
+</FrameLayout>

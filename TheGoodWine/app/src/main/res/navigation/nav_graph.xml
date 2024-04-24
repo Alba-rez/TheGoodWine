@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/ageFragment">
 
@@ -9,11 +10,11 @@
         android:name="com.example.thegoodwine.AgeFragment"
         android:label="The Good Wine" >
         <action
-            android:id="@+id/action_ageFragment_to_siFragment"
-            app:destination="@id/siFragment" />
-        <action
             android:id="@+id/action_ageFragment_to_noFragment"
             app:destination="@id/noFragment" />
+        <action
+            android:id="@+id/action_ageFragment_to_copasFragment"
+            app:destination="@id/copasFragment" />
     </fragment>
     <fragment
         android:id="@+id/siFragment"
@@ -54,4 +55,13 @@
         android:id="@+id/blancosFragment"
         android:name="com.example.thegoodwine.BlancosFragment"
         android:label="The Good Wine" />
+    <fragment
+        android:id="@+id/copasFragment"
+        android:name="com.example.thegoodwine.CopasFragment"
+        android:label="Beba con moderación"
+        tools:layout="@layout/fragment_copas" >
+        <action
+            android:id="@+id/action_copasFragment_to_siFragment"
+            app:destination="@id/siFragment" />
+    </fragment>
 </navigation>

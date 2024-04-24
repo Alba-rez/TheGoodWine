@@ -5,6 +5,7 @@
     <string name="no_age">I am a minor</string>
     <string name="no_text">Come back when you are of legal age. Goodbye!</string>
     <string name="start">Enter</string>
+    <string name="next">Next</string>
     <string name="seleccion">Select a color</string>
     <string name="vino">Wine</string>
     <string name="tinto">Red</string>
