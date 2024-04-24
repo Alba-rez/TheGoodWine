@@ -7,7 +7,7 @@
     <fragment
         android:id="@+id/ageFragment"
         android:name="com.example.thegoodwine.AgeFragment"
-        android:label="AgeFragment" >
+        android:label="The Good Wine" >
         <action
             android:id="@+id/action_ageFragment_to_siFragment"
             app:destination="@id/siFragment" />
@@ -18,7 +18,7 @@
     <fragment
         android:id="@+id/siFragment"
         android:name="com.example.thegoodwine.SiFragment"
-        android:label="SiFragment" >
+        android:label="The Good Wine" >
         <action
             android:id="@+id/action_siFragment_to_chooseFragment"
             app:destination="@id/chooseFragment"
@@ -27,11 +27,11 @@
     <fragment
         android:id="@+id/noFragment"
         android:name="com.example.thegoodwine.NoFragment"
-        android:label="NoFragment" />
+        android:label="The Good Wine" />
     <fragment
         android:id="@+id/chooseFragment"
         android:name="com.example.thegoodwine.ChooseFragment"
-        android:label="ChooseFragment" >
+        android:label="The Good Wine" >
         <action
             android:id="@+id/action_chooseFragment_to_tintosFragment"
             app:destination="@id/tintosFragment" />
@@ -45,13 +45,13 @@
     <fragment
         android:id="@+id/tintosFragment"
         android:name="com.example.thegoodwine.TintosFragment"
-        android:label="TintosFragment" />
+        android:label="The Good Wine" />
     <fragment
         android:id="@+id/rosadosFragment"
         android:name="com.example.thegoodwine.RosadosFragment"
-        android:label="RosadosFragment" />
+        android:label="The Good Wine" />
     <fragment
         android:id="@+id/blancosFragment"
         android:name="com.example.thegoodwine.BlancosFragment"
-        android:label="BlancosFragment" />
+        android:label="The Good Wine" />
 </navigation>

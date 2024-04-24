@@ -6,7 +6,10 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
+import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.appbar.MaterialToolbar
 
 class MainActivity : AppCompatActivity() {
@@ -16,6 +19,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val toolbar = findViewById<MaterialToolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
+        val navHostFragment=supportFragmentManager.findFragmentById(R.id.fragment_container_view) as NavHostFragment
+        val navController=navHostFragment.navController
+
+        //configuración de la toolbar
+        val builder= AppBarConfiguration.Builder(navController.graph)
+        val appBarConfig=builder.build()
+        toolbar.setupWithNavController(navController,appBarConfig)
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

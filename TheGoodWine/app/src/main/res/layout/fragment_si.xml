@@ -66,15 +66,15 @@
 
  <Button
      android:id="@+id/start"
-     android:layout_width="123dp"
+     android:layout_width="110dp"
      android:layout_height="60dp"
      android:layout_gravity="bottom|center"
-     android:layout_marginBottom="16dp"
-     android:layout_marginLeft="5dp"
+     android:layout_marginBottom="18dp"
+     android:layout_marginLeft="7dp"
      android:backgroundTint="@color/black"
      android:gravity="center"
      android:text="@string/start"
-     android:textSize="18sp"
+     android:textSize="15sp"
      android:textStyle="bold" />
 
 
