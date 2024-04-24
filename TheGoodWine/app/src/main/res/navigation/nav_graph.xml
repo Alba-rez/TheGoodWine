@@ -21,7 +21,8 @@
         android:label="SiFragment" >
         <action
             android:id="@+id/action_siFragment_to_chooseFragment"
-            app:destination="@id/chooseFragment" />
+            app:destination="@id/chooseFragment"
+            app:popUpTo="@id/ageFragment" />
     </fragment>
     <fragment
         android:id="@+id/noFragment"

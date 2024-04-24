@@ -10,7 +10,7 @@
      android:layout_width="match_parent"
      android:layout_height="match_parent"
      android:scaleType="centerCrop"
-     android:src="@drawable/white_bottle3" />
+     android:src="@drawable/white_bottle4" />
 
  <TextView
      android:layout_width="wrap_content"
@@ -70,7 +70,7 @@
      android:layout_height="60dp"
      android:layout_gravity="bottom|center"
      android:layout_marginBottom="16dp"
-     android:layout_marginRight="3dp"
+     android:layout_marginLeft="5dp"
      android:backgroundTint="@color/black"
      android:gravity="center"
      android:text="@string/start"

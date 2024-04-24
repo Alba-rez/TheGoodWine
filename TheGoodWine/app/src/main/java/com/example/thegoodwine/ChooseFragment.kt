@@ -25,11 +25,6 @@ class ChooseFragment : Fragment() {
         // Inflate the layout for this fragment
         val view=inflater.inflate(R.layout.fragment_choose, container, false)
 
-        // Configura la Toolbar personalizada
-        val toolbar = view.findViewById<MaterialToolbar>(R.id.toolbar)
-        // Configura la Toolbar como la barra de la aplicación
-        (activity as AppCompatActivity).setSupportActionBar(toolbar)
-
         val ButtonVioleta=view.findViewById<Button>(R.id.violeta)
         val ButtonRosa=view.findViewById<Button>(R.id.rosa)
         val ButtonAmarillo=view.findViewById<Button>(R.id.amarillo)

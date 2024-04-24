@@ -5,6 +5,8 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
@@ -29,6 +31,7 @@ class RosadosFragment : Fragment() {
         val buttonPenedes=view.findViewById<Button>(R.id.buttonPenedes)
         val buttonEmporda=view.findViewById<Button>(R.id.buttonEmporda)
         val buttonCatalunya=view.findViewById<Button>(R.id.buttonCatalunya)
+
 
         buttonPenedes.setOnClickListener {
             val url="https://www.grauonline.es/vinos-rosados/vinos-do-penedes-rosados.html"
