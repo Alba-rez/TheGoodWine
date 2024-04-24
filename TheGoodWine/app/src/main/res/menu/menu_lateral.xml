@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tintosFragment"
+            android:title="Vino Tinto"
+            android:icon="@drawable/bottleicon"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/rosadosFragment"
+            android:title="Vino Rosado"
+            android:icon="@drawable/bottleicon"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/blancosFragment"
+            android:title="Vino Blanco"
+            android:icon="@drawable/bottleicon"
+            app:showAsAction="always"/>
+
+    </group>
+
+</menu>
