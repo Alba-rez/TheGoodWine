@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 
 /**
@@ -29,6 +30,9 @@ class CopasFragment : Fragment() {
         }
 
         return view
+    }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        (activity as AppCompatActivity).supportActionBar?.title ="Beba con moderación"
     }
 
 
