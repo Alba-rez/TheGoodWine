@@ -68,13 +68,26 @@
      android:id="@+id/start"
      android:layout_width="110dp"
      android:layout_height="60dp"
-     android:layout_gravity="bottom|center"
+     android:layout_gravity="bottom|left"
      android:layout_marginBottom="18dp"
-     android:layout_marginLeft="7dp"
+     android:layout_marginLeft="35dp"
      android:backgroundTint="@color/black"
      android:gravity="center"
-     android:text="@string/start"
-     android:textSize="15sp"
+     android:text="@string/buy"
+     android:textSize="14sp"
+     android:textStyle="bold" />
+
+ <Button
+     android:id="@+id/know"
+     android:layout_width="110dp"
+     android:layout_height="60dp"
+     android:layout_gravity="bottom|right"
+     android:layout_marginBottom="18dp"
+     android:layout_marginRight="25dp"
+     android:backgroundTint="@color/black"
+     android:gravity="center"
+     android:text="@string/know"
+     android:textSize="14sp"
      android:textStyle="bold" />
 
 

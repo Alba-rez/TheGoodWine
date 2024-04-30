@@ -3,8 +3,9 @@
     <string name="age">Mayor 18</string>
     <string name="no_age">Menor 18</string>
     <string name="no_text">Vuelva cuando sea mayor de edad.</string>
-    <string name="start">Entrar</string>
+    <string name="buy">Comprar</string>
     <string name="next">Siguiente</string>
+    <string name="know">Curioso</string>
     <string name="seleccion">Elige Color</string>
     <string name="violeta">T</string>
     <string name="vino">Vino</string>
@@ -22,5 +23,7 @@
     <string name="rbaixas">D.O.Rías Baixas</string>
     <string name="ribeiro">D.O.Ribeiro</string>
     <string name="valdeorras">D.O.Valdeorras</string>
-   <string name="copas">Beba con moderación</string>
+    <string name="copas">Beba con moderación</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

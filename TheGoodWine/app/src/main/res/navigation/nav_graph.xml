@@ -24,6 +24,9 @@
             android:id="@+id/action_siFragment_to_chooseFragment"
             app:destination="@id/chooseFragment"
             app:popUpTo="@id/ageFragment" />
+        <action
+            android:id="@+id/action_siFragment_to_curiosidadesFragment"
+            app:destination="@id/curiosidadesFragment" />
     </fragment>
     <fragment
         android:id="@+id/noFragment"
@@ -64,4 +67,9 @@
             android:id="@+id/action_copasFragment_to_siFragment"
             app:destination="@id/siFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/curiosidadesFragment"
+        android:name="com.example.thegoodwine.CuriosidadesFragment"
+        android:label="The Good Wine"
+        tools:layout="@layout/fragment_curiosidades" />
 </navigation>
