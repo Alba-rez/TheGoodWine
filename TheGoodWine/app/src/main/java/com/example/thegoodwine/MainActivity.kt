@@ -1,10 +1,14 @@
 package com.example.thegoodwine
 
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.widget.FrameLayout
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
@@ -14,11 +18,28 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.navigation.NavigationView
 
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        // Restaurar el estado de la visibilidad de la pantalla de inicio
+        if (savedInstanceState != null) {
+            val splashVisibility = savedInstanceState.getInt("splashVisibility", View.GONE)
+            val splashContainer = findViewById<FrameLayout>(R.id.splash_container)
+            splashContainer.visibility = splashVisibility
+        }
+
+        // Después de un cierto tiempo, ocultar la pantalla de inicio y mostrar el resto de la interfaz de usuario
+        Handler().postDelayed({
+            val splashContainer = findViewById<FrameLayout>(R.id.splash_container)
+            splashContainer.visibility = View.GONE
+            // Aquí puedes mostrar otros elementos de tu interfaz de usuario
+        }, 4000) // 4000 milisegundos = 4 segundos
+
+
         val toolbar = findViewById<MaterialToolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
         val navHostFragment=supportFragmentManager.findFragmentById(R.id.fragment_container_view) as NavHostFragment
@@ -49,6 +70,14 @@ class MainActivity : AppCompatActivity() {
         return NavigationUI.onNavDestinationSelected(item, navController )||
                 super.onOptionsItemSelected(item)
 
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+
+        // Guardar el estado de la visibilidad de la pantalla de inicio
+        val splashContainer = findViewById<FrameLayout>(R.id.splash_container)
+        outState.putInt("splashVisibility", splashContainer.visibility)
     }
 
 }

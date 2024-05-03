@@ -56,8 +56,8 @@
 
     <Button
         android:id="@+id/buttonPenedes"
-        android:layout_width="250dp"
-        android:layout_height="70dp"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
         android:backgroundTint="@color/colorPink"
         android:text="@string/penedes"
         android:textColor="@color/black"
@@ -71,8 +71,8 @@
 
     <Button
         android:id="@+id/buttonEmporda"
-        android:layout_width="250dp"
-        android:layout_height="70dp"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
         android:backgroundTint="@color/colorPink"
         android:text="@string/emporda"
         android:textColor="@color/black"
@@ -86,8 +86,8 @@
 
     <Button
         android:id="@+id/buttonCatalunya"
-        android:layout_width="250dp"
-        android:layout_height="70dp"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
         android:backgroundTint="@color/colorPink"
         android:text="@string/catalunya"
         android:textColor="@color/black"

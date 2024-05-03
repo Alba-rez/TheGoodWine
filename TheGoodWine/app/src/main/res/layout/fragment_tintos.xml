@@ -54,8 +54,8 @@
 
     <Button
         android:id="@+id/buttonToro"
-        android:layout_width="250dp"
-        android:layout_height="70dp"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
         android:backgroundTint="@color/colorPurple"
         android:text="@string/toro"
         android:textColor="@color/black"
@@ -69,8 +69,8 @@
 
     <Button
         android:id="@+id/buttonRioja"
-        android:layout_width="250dp"
-        android:layout_height="70dp"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
         android:backgroundTint="@color/colorPurple"
         android:text="@string/rioja"
         android:textColor="@color/black"
@@ -84,8 +84,8 @@
 
     <Button
         android:id="@+id/buttonRibera"
-        android:layout_width="250dp"
-        android:layout_height="70dp"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
         android:backgroundTint="@color/colorPurple"
         android:text="@string/rduero"
         android:textColor="@color/black"

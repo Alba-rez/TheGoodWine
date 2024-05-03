@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorGrey"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".CuriosidadesFragment">
 
@@ -13,7 +14,7 @@
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="210dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:contentScrim="?attr/colorPrimary">
 
@@ -60,28 +61,27 @@
                 android:layout_height="wrap_content"
                 android:text="El vino es incoloro"
                 android:textSize="30sp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="¿Conoces esa canción tradicional que dice “El vino que tiene Asunción no es blanco ni tinto ni tiene
                 color”? Pues es otro ejemplo más de la inabarcable sabiduría popular. El mosto del vino es incoloro. La bebida adquiere color a partir de la maceración por los pigmentos de la piel de la uva y otras células vegetales."
                 android:textSize="15sp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+               />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Brindar para no envenenarse"
                 android:textSize="30sp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Por extraño que parezca, antiguamente el brindis servía para demostrarque la bebida no estaba envenenada.
-                En los grandes banquetes, la costumbre era chocar
-                las copas con fuerza para que la bebida saltase de una a otra. Así, se aseguraban de
-                que no había veneno en ninguna de ellas. Era un tiempo en el que los envenenamientos
-                estaban a la orden del día…"
+                android:text="Por extraño que parezca, antiguamente el brindis servía para demostrarque la bebida no estaba envenenada. En los grandes banquetes, la costumbre era chocar las copas con fuerza para que la bebida saltase de una a otra. Así, se aseguraban de que no había veneno en ninguna de ellas. Era un tiempo en el que los envenenamientos estaban a la orden del día…"
                 android:textSize="15sp"
                 android:textColor="@color/black"/>
             <TextView
@@ -89,7 +89,8 @@
                 android:layout_height="wrap_content"
                 android:text="Gracias a Louis Pasteur"
                 android:textSize="30sp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -104,7 +105,8 @@ Y gracias a este descubrimiento con el vino tenemos también hoy en día la lech
                 android:layout_height="wrap_content"
                 android:text="Beethoven, ¿intoxicado por el plomo del vino?"
                 android:textSize="30sp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -116,7 +118,8 @@ Y gracias a este descubrimiento con el vino tenemos también hoy en día la lech
                 android:layout_height="wrap_content"
                 android:text="Un vino hecho con uvas congeladas"
                 android:textSize="30sp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -128,7 +131,8 @@ Y gracias a este descubrimiento con el vino tenemos también hoy en día la lech
                 android:layout_height="wrap_content"
                 android:text="¿Por qué muchas botellas son de color verde?"
                 android:textSize="30sp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
