@@ -57,33 +57,17 @@
             android:src="@drawable/botella_inicio"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="81dp"
+            android:layout_height="109dp"
             android:layout_gravity="center"
-            android:text="T"
-            android:textColor="@color/colorPurple"
-            android:textSize="60sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="20dp"/>
+            android:text="The
+            Good
+            Wine"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="G"
-            android:textSize="60sp"
-            android:textStyle="bold"
-            android:textColor="@color/colorPink"
-            android:layout_gravity="center"
-            android:layout_marginTop="40dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="W"
-            android:textSize="60sp"
-            android:textStyle="bold"
-            android:textColor="@color/colorYellow"
-            android:layout_gravity="center"
-            android:layout_marginTop="100dp"/>
+
 
     </FrameLayout>
 

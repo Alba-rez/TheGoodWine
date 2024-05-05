@@ -24,6 +24,19 @@
     <string name="ribeiro">D.O.Ribeiro</string>
     <string name="valdeorras">D.O.Valdeorras</string>
     <string name="copas">Beba con moderación</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+   <string name="youknow">¿ Sabías qué...?</string>
+    <string name="nocolor">El vino es incoloro</string>
+    <string name="nocolortext">¿Conoces esa canción tradicional que dice “El vino que tiene Asunción no es blanco ni tinto ni tiene
+                color”? Pues es otro ejemplo más de la inabarcable sabiduría popular. El mosto del vino es incoloro. La bebida adquiere color a partir de la maceración por los pigmentos de la piel de la uva y otras células vegetales.</string>
+    <string name="brindar">Brindar para no envenenarse</string>
+    <string name="brindartext">Por extraño que parezca, antiguamente el brindis servía para demostrarque la bebida no estaba envenenada. En los grandes banquetes, la costumbre era chocar las copas con fuerza para que la bebida saltase de una a otra. Así, se aseguraban de que no había veneno en ninguna de ellas. Era un tiempo en el que los envenenamientos estaban a la orden del día…</string>
+    <string name="pasteur">Gracias a Louis Pasteur</string>
+    <string name="pasteurtext">Con este genio francés, descubridor de la vacuna contra la rabia y de tantas otras cosas, la humanidad siempre estará en deuda. También los aficionados al vino, ya que Pasteur estudió la fermentación, su descomposición y acidificación del vino. Lo hizo a petición de los propios vinicultores. Para combatir la fermentación láctica producida por microorganismos, Pasteur  sugirió el calor en temperaturas de 50-60 grados para eliminar las bacterias que agriaban el vino. Sin embargo, los productores rechazaron esta metodología. Al final, se propuso un experimento con dos barriles de vino: uno tratado con el método propuesto por el científico y otro no. Después de diez meses de travesía en barco, el barril pasteurizado volvió en perfectas condiciones; el otro se fermentó.
+Y gracias a este descubrimiento con el vino tenemos también hoy en día la leche pasteurizada."</string>
+    <string name="beethoven">Beethoven, ¿intoxicado por el plomo del vino?</string>
+    <string name="beethoventext">El genial músico alemán padeció en sus últimos años la enfermedad de saturnismo o envenenamiento con plomo. Según determinadas investigaciones, el alejamiento de su estilo romántico, la irrupción de pasajes más tristes y los bruscos cambios musicales de sus últimas obras se explicarían por el desarrollo de esta enfermedad. Es un hecho conocido que Beethoven era un gran aficionado al vino blanco del Rhin y que en aquella época el vino se adulteraba con un compuesto endulzante derivado del plomo.</string>
+    <string name="frozen">Un vino hecho con uvas congeladas</string>
+    <string name="frozentext">El llamado vino de hielo o Eiswein es un vino que se elabora con uvas congeladas. Es originario de Baviera (Alemania), pero también puedes encontrarlo en España como vino Amantia (D.O. Arlanza) o vino Malizia (Rioja Alavesa), entre otros. Al elaborarse con uvas congeladas, se caracteriza por tener un alto contenido de azúcar.</string>
+    <string name="greenbottle">¿Por qué muchas botellas son de color verde?</string>
+    <string name="greenbottletext">El color verde protege el vino de la luz ultravioleta, que puede dañar el vino y afectar a su sabor. Este color es capaz de filtrar entre el 30 y el 60% de la radiación frente a un pequeño porcentaje del cristal blanco. También hay razones comerciales, estéticas y económicas. De hecho, el cristal verde suele ser el más barato. Otra razón es para que no se aprecie tan fácilmente cuánto vino se ha consumido.</string>
 </resources>

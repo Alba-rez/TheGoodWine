@@ -25,6 +25,17 @@
     <string name="ribeiro">D.O.Ribeiro</string>
     <string name="valdeorras">D.O.Valdeorras</string>
     <string name="copas">Drink in moderation</string>
-
-
+    <string name="youknow">¿ Do you know...?</string>
+    <string name="nocolor">Wine is colorless</string>
+    <string name="nocolortext">Do you know that traditional song that says:The wine that Asunción has is neither white nor red nor has color? Well, its another example of the boundless folk wisdom. The grape must is colorless. The beverage acquires its color through maceration by the pigments from the grape skin and other plant cells.</string>
+    <string name="brindar">To toast so as not to poison oneself</string>
+    <string name="brindartext">Strangely enough, in the past, toasting served as a way to demonstrate that the drink was not poisoned. During grand banquets, it was customary to clink glasses forcefully so that the beverage would splash from one to another. This ensured that there was no poison in any of them. It was a time when poisonings were commonplace..</string>
+    <string name="pasteur">Thanks to Louis Pasteur</string>
+    <string name="pasteurtext">With this French genius, discoverer of the rabies vaccine and so many other things, humanity will always be in debt. Also wine enthusiasts, as Pasteur studied the fermentation, decomposition, and acidification of wine. He did so at the request of winemakers themselves. To combat lactic fermentation caused by microorganisms, Pasteur suggested heat at temperatures of 50-60 degrees to eliminate the bacteria that soured the wine. However, producers rejected this methodology. In the end, an experiment was proposed with two barrels of wine: one treated with the method proposed by the scientist and another not. After ten months of travel by boat, the pasteurized barrel returned in perfect condition; the other fermented.</string>
+    <string name="beethoven">Beethoven, intoxicated by the lead in wine</string>
+    <string name="beethoventext">The brilliant German musician suffered from lead poisoning or saturnism in his later years. According to certain research, the departure from his romantic style, the emergence of sadder passages, and the abrupt musical changes in his final works could be explained by the development of this illness. It is a known fact that Beethoven was a great enthusiast of Rhine white wine and that during that time, wine was adulterated with a sweetening compound derived from lead.</string>
+    <string name="frozen">A wine made of frozen grapes</string>
+    <string name="frozentext">The so-called ice wine or Eiswein is a wine made from frozen grapes. It originates from Bavaria, Germany, but you can also find it in Spain under names such as Amantia wine (D.O. Arlanza) or Malizia wine (Rioja Alavesa), among others. Being made from frozen grapes, it is characterized by its high sugar content.</string>
+    <string name="greenbottle">Why are many bottles green?</string>
+    <string name="greenbottletext">The color green protects the wine from ultraviolet light, which can damage the wine and affect its flavor. This color is capable of filtering between 30 and 60% of the radiation compared to a small percentage of the glass There are also commercial, aesthetic and economic reasons. In fact, green glass is usually the cheapest. Another reason is so that it is not so easy to see how much wine has been consumed.</string>
 </resources>
