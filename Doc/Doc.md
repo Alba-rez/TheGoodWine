@@ -41,7 +41,7 @@ En la barra de aplicación se muestra el texto " Beba con moderación".
 >
 >
 >  * Pantalla detalle vino: Permite acceder a la página de compra de un vino específico. Se puede regresar a la página de selección de colores utilizando la flecha de retroceso. Si se accede a través del menú lateral, la flecha de retroceso lleva de vuelta a la pantalla inicial.
->        <img src="../Imágenes/Captura de pantalla 2024-05-06 211643.png"/>
+>        <img src="../Imágenes/Captura de pantalla 2024-05-06 221015.png"/>
          <img src="../Imágenes/Captura de pantalla 2024-05-06 211715.png"/>
          <img src="../Imágenes/Captura de pantalla 2024-05-06 211747.png"/>
 >
