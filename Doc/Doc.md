@@ -52,12 +52,10 @@ Un ejemplo de las webs a las que accederíamos al clicar en una de las opciones 
 >
 >
 > ## DISEÑO
->
 > Las imágenes la he creado con Photoshop.
-> Para la creación de los layouts he utilizado FrameLayout en su mayoría, y ConstraintLayout para las pantallas de las D.O. de los vinos
+ Para la creación de los layouts he utilizado FrameLayout en su mayoría, y ConstraintLayout para las pantallas de las D.O. de los vinos
 > 
 > ### Herramientas de Desarrollo
->
 > * Android Studio
 > * Photoshop
 > * Canvas
