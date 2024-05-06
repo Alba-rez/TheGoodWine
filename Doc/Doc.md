@@ -16,13 +16,16 @@
 > <img src="Imágenes/Captura de pantalla 2024-05-06 154430.png"/>
 >
 > * Menú lateral : Desde este menú lateral se accede directamente a la pantalla de cada vino desde donde acceder a la compra.
+>   
 >  <img src="Imágenes/Captura de pantalla 2024-05-06 163216.png"/>
 >
-> * Barra de aplicación: Contiene un icono de una botella para acceder a la página de compra, y un icono para acceder al menú lateral, además de aparacer el nombre de la aplicación. 
+> * Barra de aplicación: Contiene un icono de una botella para acceder a la página de compra, y un icono para acceder al menú lateral, además de aparacer el nombre de la aplicación.
+>   
 >  <img src="Imágenes/Captura de pantalla 2024-05-06 213846.png"/>
 >
 > * Pantalla de recomendación FEV : En esta pantalla se recomienda un consumo moderado de vino, indicándose las cantidades que recomienda la Federación ESpañola del Vino.
 En la barra de aplicación se muestra el texto " Beba con moderación".
+
 >  <img src="Imágenes/Captura de pantalla 2024-05-06 155856.png"/>
 >
 >
