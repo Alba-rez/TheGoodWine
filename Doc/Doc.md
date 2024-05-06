@@ -49,6 +49,7 @@ En la barra de aplicación se muestra el texto " Beba con moderación".
 >        <img src="../Imágenes/Captura de pantalla 2024-05-06 221015.png"/>
          <img src="../Imágenes/Captura de pantalla 2024-05-06 211715.png"/>
          <img src="../Imágenes/Captura de pantalla 2024-05-06 211747.png"/>
+>
 >  Un ejemplo de las webs a las que accederíamos al clicar en una de las opciones de vino :  
           <img src="../Imágenes/Screenshot_20240506-200018_Chrome.jpg"/>
           <img src="../Imágenes/Screenshot_20240506-200151_Chrome.jpg"/>
