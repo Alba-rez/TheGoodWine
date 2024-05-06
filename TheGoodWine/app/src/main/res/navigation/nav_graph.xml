@@ -61,7 +61,7 @@
     <fragment
         android:id="@+id/copasFragment"
         android:name="com.example.thegoodwine.CopasFragment"
-        android:label="Beba con moderación"
+        android:label="@string/moderacion"
         tools:layout="@layout/fragment_copas" >
         <action
             android:id="@+id/action_copasFragment_to_siFragment"

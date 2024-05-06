@@ -10,6 +10,8 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.thegoodwine.databinding.FragmentRosadosBinding
+import com.example.thegoodwine.databinding.FragmentTintosBinding
 import com.google.android.material.appbar.MaterialToolbar
 
 /**
@@ -19,42 +21,50 @@ import com.google.android.material.appbar.MaterialToolbar
  */
 class TintosFragment : Fragment() {
 
-
+    private var _binding: FragmentTintosBinding? = null
+    private val binding get() = _binding!!
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
+        _binding = FragmentTintosBinding.inflate(inflater, container, false)
+        val view = binding.root
         // Inflate the layout for this fragment
-        val view= inflater.inflate(R.layout.fragment_tintos, container, false)
+        /*val view= inflater.inflate(R.layout.fragment_tintos, container, false)
         val buttonToro=view.findViewById<Button>(R.id.buttonToro)
         val buttonRioja=view.findViewById<Button>(R.id.buttonRioja)
-        val buttonRibera=view.findViewById<Button>(R.id.buttonRibera)
+        val buttonRibera=view.findViewById<Button>(R.id.buttonRibera)*/
 
-        buttonToro.setOnClickListener {
+        binding.buttonToro.setOnClickListener {
             val url="https://www.ideavinos.com/denominacion/toro"
             val intent=Intent(Intent.ACTION_VIEW, Uri.parse(url))
             if (intent.resolveActivity(requireActivity().packageManager) != null) {
                 startActivity(intent)
             } else {
-                Toast.makeText(requireContext(), "No se puede abrir el enlace.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(), getString(R.string.enlace), Toast.LENGTH_SHORT).show()
             }
         }
-        buttonRioja.setOnClickListener {
+        binding.buttonRioja.setOnClickListener {
             val url="https://www.ideavinos.com/denominacion/rioja"
             val intent=Intent(Intent.ACTION_VIEW, Uri.parse(url))
             if (intent.resolveActivity(requireActivity().packageManager) != null) {
                 startActivity(intent)
             } else {
-                Toast.makeText(requireContext(), "No se puede abrir el enlace.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(), getString(R.string.enlace), Toast.LENGTH_SHORT).show()
             }
         }
-        buttonRibera.setOnClickListener {
+        binding.buttonRibera.setOnClickListener {
             val url="https://www.ideavinos.com/denominacion/ribera-del-duero"
             val intent=Intent(Intent.ACTION_VIEW, Uri.parse(url))
             if (intent.resolveActivity(requireActivity().packageManager) != null) {
                 startActivity(intent)
             } else {
-                Toast.makeText(requireContext(), "No se puede abrir el enlace.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(), getString(R.string.enlace), Toast.LENGTH_SHORT).show()
             }
         }
 

@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">The Good Wine</string>
-    <string name="age">I am of legal age</string>
-    <string name="no_age">I am a minor</string>
+    <string name="age">legal age</string>
+    <string name="no_age">minor</string>
     <string name="no_text">Come back when you are of legal age. Goodbye!</string>
     <string name="buy">Buy</string>
-    <string name="know">Curiosity</string>
+    <string name="know">Snoop</string>
     <string name="next">Next</string>
-    <string name="seleccion">Select a color</string>
+    <string name="moderacion">Drink responsibly</string>
+    <string name="dosunidades">Up to 2 units of alcohol per day</string>
+    <string name="cuatrounidades">No more than 4 units of alcohol on the same occasion</string>
+    <string name="enlace">Could not open link</string>
+    <string name="vtinto">Red wine</string>
+    <string name="vrosado">Rose wine</string>
+    <string name="vblanco">White wine</string>
     <string name="vino">Wine</string>
     <string name="tinto">Red</string>
-    <string name="rosado">Rosé</string>
+    <string name="rosado">Rose</string>
     <string name="blanco">White</string>
     <string name="violeta">R</string>
     <string name="rioja">D.O.Rioja</string>
@@ -25,7 +31,7 @@
     <string name="ribeiro">D.O.Ribeiro</string>
     <string name="valdeorras">D.O.Valdeorras</string>
     <string name="copas">Drink in moderation</string>
-    <string name="youknow">¿ Do you know...?</string>
+    <string name="youknow">Do you know...?</string>
     <string name="nocolor">Wine is colorless</string>
     <string name="nocolortext">Do you know that traditional song that says:The wine that Asunción has is neither white nor red nor has color? Well, its another example of the boundless folk wisdom. The grape must is colorless. The beverage acquires its color through maceration by the pigments from the grape skin and other plant cells.</string>
     <string name="brindar">To toast so as not to poison oneself</string>

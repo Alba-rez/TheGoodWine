@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="90dp"
-        android:text="Hasta 2 unidades de alcohol diarias"
+        android:text="@string/dosunidades"
         android:textColor="@color/white"
         android:textStyle="normal" />
 
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
         android:layout_marginBottom="190dp"
-        android:text="No más de 4 unidades de alcohol en la misma ocasión"
+        android:text="@string/cuatrounidades"
         android:textColor="@color/white"
         android:textStyle="normal" />
 

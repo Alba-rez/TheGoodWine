@@ -14,9 +14,10 @@
 
  <TextView
      android:layout_width="wrap_content"
-     android:layout_height="256dp"
-     android:layout_marginLeft="10dp"
-     android:layout_marginRight="16dp"
+     android:layout_height="wrap_content"
+     android:layout_gravity="top|left"
+     android:layout_marginLeft="30dp"
+     android:layout_marginRight="40dp"
      android:text="The Good "
      android:textColor="@color/black"
      android:textSize="110sp"
@@ -24,40 +25,40 @@
 
  <TextView
      android:layout_width="wrap_content"
-     android:layout_height="128dp"
-     android:layout_marginLeft="20dp"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="30dp"
      android:layout_gravity="center|left"
      android:text="W"
      android:textColor="@color/colorPurple"
-     android:textSize="110sp"
+     android:textSize="100sp"
      android:textStyle="bold" />
 
  <TextView
      android:layout_width="wrap_content"
-     android:layout_height="128dp"
+     android:layout_height="wrap_content"
      android:layout_gravity="center|left"
      android:layout_marginLeft="130dp"
      android:text="i"
      android:textColor="@color/colorPink"
-     android:textSize="110sp"
+     android:textSize="100sp"
      android:textStyle="bold" />
  <TextView
      android:layout_width="wrap_content"
-     android:layout_height="128dp"
+     android:layout_height="wrap_content"
      android:layout_gravity="center|left"
      android:layout_marginLeft="170dp"
      android:text="n"
      android:textColor="@color/colorYellow"
-     android:textSize="110sp"
+     android:textSize="100sp"
      android:textStyle="bold" />
  <TextView
      android:layout_width="wrap_content"
-     android:layout_height="128dp"
+     android:layout_height="wrap_content"
      android:layout_gravity="center|left"
      android:layout_marginLeft="240dp"
      android:text="e"
      android:textColor="@color/black"
-     android:textSize="110sp"
+     android:textSize="100sp"
      android:textStyle="bold" />
 
  <Button

@@ -6,17 +6,17 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/tintosFragment"
-            android:title="Vino Tinto"
+            android:title="@string/vtinto"
             android:icon="@drawable/bottleicon"
             app:showAsAction="always"/>
         <item
             android:id="@+id/rosadosFragment"
-            android:title="Vino Rosado"
+            android:title="@string/vrosado"
             android:icon="@drawable/bottleicon"
             app:showAsAction="always"/>
         <item
             android:id="@+id/blancosFragment"
-            android:title="Vino Blanco"
+            android:title="@string/vblanco"
             android:icon="@drawable/bottleicon"
             app:showAsAction="always"/>
 

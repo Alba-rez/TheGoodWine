@@ -8,6 +8,8 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
+import com.example.thegoodwine.databinding.FragmentAgeBinding
+
 import com.google.android.material.appbar.MaterialToolbar
 
 /**
@@ -16,24 +18,34 @@ import com.google.android.material.appbar.MaterialToolbar
  * create an instance of this fragment.
  */
 class AgeFragment : Fragment() {
+    private var _binding: FragmentAgeBinding?=null
 
+    private  val binding:FragmentAgeBinding
+        get()=_binding!!
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding=null
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_age, container, false)
+        //val view = inflater.inflate(R.layout.fragment_age, container, false)
+        _binding=FragmentAgeBinding.inflate(inflater, container,false)
+        val view=binding.root
 
 
-        val ButtonMayor = view.findViewById<Button>(R.id.age)
-        val ButtonMenor = view.findViewById<Button>(R.id.no_age)
+        //val ButtonMayor = view.findViewById<Button>(R.id.age)
+        //val ButtonMenor = view.findViewById<Button>(R.id.no_age)
 
-        ButtonMayor.setOnClickListener {
+        binding.age.setOnClickListener {
             view.findNavController().navigate(R.id.action_ageFragment_to_copasFragment)
         }
 
-        ButtonMenor.setOnClickListener {
+        binding.noAge.setOnClickListener {
             view.findNavController().navigate(R.id.action_ageFragment_to_noFragment)
         }
 

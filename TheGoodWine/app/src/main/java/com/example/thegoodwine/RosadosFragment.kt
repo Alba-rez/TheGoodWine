@@ -12,6 +12,8 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.thegoodwine.databinding.FragmentBlancosBinding
+import com.example.thegoodwine.databinding.FragmentRosadosBinding
 import com.google.android.material.appbar.MaterialToolbar
 
 
@@ -22,42 +24,52 @@ import com.google.android.material.appbar.MaterialToolbar
  */
 class RosadosFragment : Fragment() {
 
+    private var _binding: FragmentRosadosBinding? = null
+    private val binding get() = _binding!!
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view= inflater.inflate(R.layout.fragment_rosados, container, false)
+
+        _binding = FragmentRosadosBinding.inflate(inflater, container, false)
+        val view = binding.root
+
+        /*val view= inflater.inflate(R.layout.fragment_rosados, container, false)
         val buttonPenedes=view.findViewById<Button>(R.id.buttonPenedes)
         val buttonEmporda=view.findViewById<Button>(R.id.buttonEmporda)
-        val buttonCatalunya=view.findViewById<Button>(R.id.buttonCatalunya)
+        val buttonCatalunya=view.findViewById<Button>(R.id.buttonCatalunya)*/
 
 
-        buttonPenedes.setOnClickListener {
+        binding.buttonPenedes.setOnClickListener {
             val url="https://www.grauonline.es/vinos-rosados/vinos-do-penedes-rosados.html"
             val intent= Intent(Intent.ACTION_VIEW, Uri.parse(url))
             if (intent.resolveActivity(requireActivity().packageManager) != null) {
                 startActivity(intent)
             } else {
-                Toast.makeText(requireContext(), "No se puede abrir el enlace.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(), getString(R.string.enlace), Toast.LENGTH_SHORT).show()
             }
         }
-        buttonEmporda.setOnClickListener {
+        binding.buttonEmporda.setOnClickListener {
             val url="https://www.grauonline.es/vinos-rosados/vinos-do-emporda-rosados.html"
             val intent=Intent(Intent.ACTION_VIEW, Uri.parse(url))
             if (intent.resolveActivity(requireActivity().packageManager) != null) {
                 startActivity(intent)
             } else {
-                Toast.makeText(requireContext(), "No se puede abrir el enlace.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(), getString(R.string.enlace), Toast.LENGTH_SHORT).show()
             }
         }
-        buttonCatalunya.setOnClickListener {
+        binding.buttonCatalunya.setOnClickListener {
             val url="https://www.grauonline.es/vinos-rosados/vinos-do-catalunya-rosados.html"
             val intent=Intent(Intent.ACTION_VIEW, Uri.parse(url))
             if (intent.resolveActivity(requireActivity().packageManager) != null) {
                 startActivity(intent)
             } else {
-                Toast.makeText(requireContext(), "No se puede abrir el enlace.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(), getString(R.string.enlace), Toast.LENGTH_SHORT).show()
             }
         }
 

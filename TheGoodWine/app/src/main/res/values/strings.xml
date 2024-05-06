@@ -6,7 +6,13 @@
     <string name="buy">Comprar</string>
     <string name="next">Siguiente</string>
     <string name="know">Curiosear</string>
-    <string name="seleccion">Elige Color</string>
+    <string name="moderacion">Beba con moderación</string>
+    <string name="dosunidades">Hasta 2 unidades de alcohol diarias</string>
+    <string name="cuatrounidades">No más de 4 unidades de alcohol en la misma ocasión</string>
+    <string name="enlace">No se pudo abrir el enlace</string>
+    <string name="vtinto">Vino tinto</string>
+    <string name="vrosado">Vino rosado</string>
+    <string name="vblanco">Vino blanco</string>
     <string name="violeta">T</string>
     <string name="vino">Vino</string>
     <string name="tinto">Tinto</string>

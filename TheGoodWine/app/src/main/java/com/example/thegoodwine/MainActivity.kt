@@ -15,48 +15,52 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
+import com.example.thegoodwine.databinding.ActivityMainBinding
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.navigation.NavigationView
 
 
 class MainActivity : AppCompatActivity() {
-
+    private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        //setContentView(R.layout.activity_main)
+        setContentView(binding.root)
 
         // Restaurar el estado de la visibilidad de la pantalla de inicio
         if (savedInstanceState != null) {
             val splashVisibility = savedInstanceState.getInt("splashVisibility", View.GONE)
-            val splashContainer = findViewById<FrameLayout>(R.id.splash_container)
-            splashContainer.visibility = splashVisibility
+            //val splashContainer = findViewById<FrameLayout>(R.id.splash_container)
+            binding.splashContainer.visibility = splashVisibility
         }
 
         // Después de un cierto tiempo, ocultar la pantalla de inicio y mostrar el resto de la interfaz de usuario
         Handler().postDelayed({
-            val splashContainer = findViewById<FrameLayout>(R.id.splash_container)
-            splashContainer.visibility = View.GONE
+            //val splashContainer = findViewById<FrameLayout>(R.id.splash_container)
+            binding.splashContainer.visibility = View.GONE
             // Aquí puedes mostrar otros elementos de tu interfaz de usuario
         }, 4000) // 4000 milisegundos = 4 segundos
 
 
-        val toolbar = findViewById<MaterialToolbar>(R.id.toolbar)
-        setSupportActionBar(toolbar)
+        //val toolbar = findViewById<MaterialToolbar>(R.id.toolbar)
+        setSupportActionBar(binding.toolbar)
         val navHostFragment=supportFragmentManager.findFragmentById(R.id.fragment_container_view) as NavHostFragment
         val navController=navHostFragment.navController
 
         // referencia al drawer layout
-        val drawer=findViewById<DrawerLayout>(R.id.drawer_layout)
+        //val drawer=findViewById<DrawerLayout>(R.id.drawer_layout)
+        val drawer = binding.drawerLayout
 
         //configuración de la toolbar
         val builder= AppBarConfiguration.Builder(navController.graph)
         builder.setOpenableLayout(drawer)
         val appBarConfig=builder.build()
-        toolbar.setupWithNavController(navController,appBarConfig)
+        binding.toolbar.setupWithNavController(navController,appBarConfig)
 
         // enlazar el drawer con el con el sistema de navegación
-        val navView=findViewById<NavigationView>(R.id.nav_view)
-        navView.setupWithNavController(navController)
+        //val navView=findViewById<NavigationView>(R.id.nav_view)
+        binding.navView.setupWithNavController(navController)
 
 
     }
@@ -76,8 +80,8 @@ class MainActivity : AppCompatActivity() {
         super.onSaveInstanceState(outState)
 
         // Guardar el estado de la visibilidad de la pantalla de inicio
-        val splashContainer = findViewById<FrameLayout>(R.id.splash_container)
-        outState.putInt("splashVisibility", splashContainer.visibility)
+        //val splashContainer = findViewById<FrameLayout>(R.id.splash_container)
+        outState.putInt("splashVisibility", binding.splashContainer.visibility)
     }
 
 }
