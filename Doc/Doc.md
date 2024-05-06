@@ -10,7 +10,7 @@
 > ## Pantallas 
 >
 > * Pantalla de incio: Presenta el nombre de la aplicación. Desaparece a los 4 segundos, dando paso a la pantalla inicial
->   <img src="Imágenes/Captura de pantalla 2024-05-06 044031.png"/>
+>   <img src="../Imágenes/Captura de pantalla 2024-05-06 044031.png"/>
 >
 > * Pantalla inicial: Solicita al usuario que seleccione si es mayor o menor de edad. Si es menor de edad, se le indica que regrese cuando sea mayor y la aplicación se cierra después de 3 segundos. Si es mayor de edad, accede a una pantalla que ofrece recomendaciones de consumo moderado y responsable según la Federación Española del Vino. Desde esta página inicial, se puede acceder al menú lateral y a la página de selección de vinos.
 >  <img src="Imágenes/Captura de pantalla 2024-05-06 154430.png"/>
