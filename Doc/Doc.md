@@ -49,13 +49,11 @@ En la barra de aplicación se muestra el texto " Beba con moderación".
    <img src="Imágenes/Screenshot_20240506-200018_Chrome.jpg"/>
    <img src="Imágenes/Screenshot_20240506-200151_Chrome.jpg"/>
    <img src="Imágenes/Screenshot_20240506-200306_Chrome.jpg"/>
->
->
-> ## DISEÑO
+>  ## DISEÑO
 > Las imágenes la he creado con Photoshop.
  Para la creación de los layouts he utilizado FrameLayout en su mayoría, y ConstraintLayout para las pantallas de las D.O. de los vinos
-> 
-> ### Herramientas de Desarrollo
+
+>  ### Herramientas de Desarrollo
 > * Android Studio
 > * Photoshop
 > * Canvas
