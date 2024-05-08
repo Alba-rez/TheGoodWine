@@ -38,13 +38,19 @@
         android:label="The Good Wine" >
         <action
             android:id="@+id/action_chooseFragment_to_tintosFragment"
-            app:destination="@id/tintosFragment" />
+            app:destination="@id/tintosFragment"
+            app:popUpTo="@id/chooseFragment"
+            app:popUpToInclusive="true" />
         <action
             android:id="@+id/action_chooseFragment_to_rosadosFragment"
-            app:destination="@id/rosadosFragment" />
+            app:destination="@id/rosadosFragment"
+            app:popUpTo="@id/chooseFragment"
+            app:popUpToInclusive="true" />
         <action
             android:id="@+id/action_chooseFragment_to_blancosFragment"
-            app:destination="@id/blancosFragment" />
+            app:destination="@id/blancosFragment"
+            app:popUpTo="@id/chooseFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/tintosFragment"
